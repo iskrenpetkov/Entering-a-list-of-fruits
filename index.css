@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size:42px;
+}
+#myForm{
+    text-align: center;
+
+}
+
+#myForm label{
+    font-size: 32px;
+    font-weight: 900;
+    border-bottom: double;
+    margin-bottom: 20px;
+}
+#myForm input{
+    width: 277px;
+    border-radius: 5px;
+    height: 28px;
+    
+}
+h2{
+    font-size: 32px;
+    margin-top: 41px;
+    text-align: center;
+    border-bottom: 2px;
+    border: double;
+}
+#myForm button{
+    width: 150px;
+    border-radius: 30px;
+    height: 28px;
+    background-color: rgb(182, 157, 180);
+    cursor: pointer;
+}
+
+#dataList{
+    text-align: left;
+    margin-left: 40px;
+    background: url(./img/img.png);
+}
+
+#dataList li{
+list-style-type: disc;
+font-size: 26px;
+font-weight: 700;
+color: rgb(0, 0, 0);
+background-color: rgb(140, 170, 197); 
+width: 220px;
+border-bottom: double;
+text-transform: uppercase;
+
+}
+body{
+background-color: rgb(140, 170, 197);
+
+}
+
+body p{
+    margin-top: 19px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 36px;
+    width: 150px
+
+}
+#textInput{
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 4: Entering a form</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+
+    <h1>Entering a list of fruits</h1>
+    <form id="myForm">
+        <label for="textInput">Enter text:</label>
+        <input type="text" id="textInput" placeholder="   Fruits list ">
+        <button type="submit" id="submit" onclick="TotalPproducts()">Send</button>
+        <button type="remove" id="remove-list" onclick="removeItem(),TotalPproductsRemove()">Remove</button>
+    </form>
+    <h2>List of entered fruits:</h2>
+
+    <ul id="dataList">
+
+    </ul>
+
+    <p id="rezult"></p>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
